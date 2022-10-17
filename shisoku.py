@@ -1,0 +1,10 @@
+s = float(input('実数sを入力>>>'))
+t = float(input('実数tを入力>>>'))
+wa = s + t
+sa = s - t
+seki = s * t
+syo = s / t
+print('s + t = ','%10.4f'%wa)
+print('s - t = ','%10.4f'%sa)
+print('s × t = ','%10.4f'%seki)
+print('s ÷ t = ','%10.4f'%syo)
