@@ -1,5 +1,6 @@
 kodukai = int(input('基本額は?>'))
 grade = input('成績は?>')
+grade = grade.upper()
 print('今月のあなたの成績は{}ですね。'.format(grade))
 
 if grade == 'A':
