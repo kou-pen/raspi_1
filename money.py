@@ -12,6 +12,6 @@ elif grade == 'C':
 elif grade == 'F':
     kodukai = kodukai // 2
 else:
-    print('入力エラー')
+    kodukai = -1
     
 print('したがってお小遣いは{}円です。'.format(kodukai))
