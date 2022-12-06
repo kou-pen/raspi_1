@@ -6,8 +6,9 @@ for i in range(n):
     student[i] = point
     sump = sump + point
 avg = sump / n
+print('')
 for i in range(n):
-    print('%d人目の点数は%d点'%(i,student[i]))
+    print('%d人目の点数は%d点'%((i+1),student[i]))
 print('平均点は%5.1f点です'%avg)
 
     
