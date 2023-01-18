@@ -1,6 +1,6 @@
 def mma(a,b,c):
-    maxdata = max([a,b,c])
-    mindata = min([a,b,c])
+    maxdata = max(a,b,c)
+    mindata = min(a,b,c)
     average = (a + b + c) / 3
     return maxdata,mindata,average
 a = float(input('a='))
